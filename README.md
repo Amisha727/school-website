@@ -4,6 +4,7 @@ Welcome to the repository for the Springdale Public School website. This website
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Screenshots](#screenshots)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
@@ -16,6 +17,21 @@ Welcome to the repository for the Springdale Public School website. This website
 ## Introduction
 
 Springdale Public School has been dedicated to providing quality education and holistic development to students since 1985. This website serves as a portal for students, parents, and the community to access important information and updates about the school.
+
+
+## Screenshots
+
+Here are some screenshots of the website:
+
+### Home Page
+![Home Page](./screnshots/Screenshot%20(519).png)
+
+### About Page
+![About Page](./screnshots/Screenshot%20(521).png)
+
+### Contact Page
+![Contact Page](./screnshots/Screenshot%20(520).png)
+
 
 ## Features
 
