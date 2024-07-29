@@ -1,0 +1,42 @@
+.hero{
+    width: 100%;
+    min-height:100vh; /*viewport height*/
+    background: linear-gradient(rgba(8,0,58,0.7), rgba(8,0,58,0.7)), url('../assets/Hibbing_High_School_2014.jpg') no-repeat center center/cover;
+    background-size:cover ;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text{
+    text-align: center;
+    max-width: 600px;
+}
+.hero-text h1{
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center; /* Center items vertically */
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .arrow-icon {
+    width: 16px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 10px; /* Space between text and icon */
+  }
+  

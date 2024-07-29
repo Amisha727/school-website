@@ -1,0 +1,47 @@
+.acad {
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.academics {
+    flex-basis: 31%;
+    position: relative;
+}
+
+.academics img {
+    width: 100%; /* Ensure the image takes the full width of its container */
+    border-radius: 10px; /* Correctly apply border radius */
+    display: block;
+}
+
+.caption{
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 15, 152, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0;
+    padding-top: 70%;
+    transition: 0.4s;
+}
+
+.caption img{
+    width: 60px;
+    margin-bottom:10px;
+}
+
+.academics:hover .caption{
+    opacity: 1;
+    padding-top: 0;
+}
